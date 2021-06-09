@@ -15,7 +15,7 @@ public class Base {
         System.out.println("낮");
     }
 
-    protected void night() {
+    public void night() {
     	System.out.println("밤에는 숙면");
     }
 }

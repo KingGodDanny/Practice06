@@ -8,8 +8,6 @@ public class MyBase extends Base{
 	//생성자
 	
 	
-	
-	
 	//메소드(게터세터)
 	
 	
@@ -21,8 +19,8 @@ public class MyBase extends Base{
 		} else if(sum.equals("낮")) {
 			day();
 		} else {
-			night();
-		}
+			night(); //이처럼 부모의 메소드를 생성자와같이 
+		} 
 	}
 	
 	public void study() {
